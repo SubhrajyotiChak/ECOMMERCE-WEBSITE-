@@ -19,6 +19,8 @@ const routes: Routes = [
   { path: 'addNewProduct', component: AddNewProductComponent, canActivate: [AuthGuard], data: { roles: ['Admin'] },   resolve: {
     product: ProductResolveService,
   }, },
+
+  
   { path: "showProductDetails", component: ShowProductDetailsComponent,canActivate: [AuthGuard], data: { roles: ['Admin']}
   }
 ];
