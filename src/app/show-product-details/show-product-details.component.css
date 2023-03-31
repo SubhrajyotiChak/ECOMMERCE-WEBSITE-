@@ -1,3 +1,19 @@
 table{
 width: 100%;
 }
+
+
+table th{
+    padding:10px;
+    border: 1px solid black;
+}
+
+
+table td{
+    padding:10px;
+    border: 1px solid black;
+}
+
+.mat-col-description{
+    width: 35%,  !important;
+}
