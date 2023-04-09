@@ -29,6 +29,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { ShowProductImagesDialogComponent } from './show-product-images-dialog/show-product-images-dialog.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { ProductViewDetailsComponent } from './product-view-details/product-view-details.component';
+import { BuyProductComponent } from './buy-product/buy-product.component';
+import { OrderConfirmationComponent } from './order-confirmation/order-confirmation.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { ProductViewDetailsComponent } from './product-view-details/product-view
     DragDirective,
     ShowProductDetailsComponent,
     ShowProductImagesDialogComponent,
-    ProductViewDetailsComponent
+    ProductViewDetailsComponent,
+    BuyProductComponent,
+    OrderConfirmationComponent
   ],
   imports: [
     BrowserModule,
